@@ -42,7 +42,6 @@ end
 
 def apply_clearance(cart)
   # code here
-  result = {}
   cart.each do |item, item_data|
     cart_item = cart[item]
     if cart_item[:clearance] == true
