@@ -58,7 +58,6 @@ def checkout(cart, coupons)
   applied_coupons = apply_coupons(consolidated_cart, coupons)
   applied_clearance = applied_clearance(applied_coupons)
   applied_clearance.each do |k, v|
-    k 
-    binding.pry
+   
   end
 end
